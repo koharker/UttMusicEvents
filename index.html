@@ -7,6 +7,18 @@
       h1 {font-family: sans-serif; font-size: 36px;}
       h2 {font-family: sans-serif; font-size: 24px; color: white; margin: .75em 18px}
       p {font-family: sans-serif; font-size: 18px; color: white; margin: .5em 18px;}
+      .curtain {
+        transition: .5s ease;
+        opacity: 0.7;
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        background-color: black;
+      }
     </style>
     <h1>2016-17 Utt Concert Calendar</h1>
     <div class='event-container' style='width: 100%; height: 50%; background-image: url("https://raw.githubusercontent.com/koharker/UttMusicEvents/master/IMG_1692.JPG"); background-position: 50% 10%;
@@ -31,6 +43,8 @@ Utt Multi-Purpose Room
 
       <div class='event-container' style='width: 100%; height: 50%; background-image: url("https://raw.githubusercontent.com/koharker/UttMusicEvents/master/IMG_1692.JPG"); background-position: 50% 10%;
     background-repeat: no-repeat;background-size: cover;'>
+        <div class='curtain'>
+        </div>
         <div class='event-info' style='position: relative; display: inline-block;'>
           <h2>Tustin Eastern Little League Opening Ceremonies</h2>
           <p>Saturday, March 4, 2017</p>
