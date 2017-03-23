@@ -15,7 +15,26 @@ i {font-family: sans-serif; font-size: 11pt; color: white;}
 
 .event-info {}
 
-.event-details {}
+.event-details {
+}
+
+#A {
+  position: absolute;
+  height: 100%;
+  background: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,128,128,1));
+}
+
+#B {
+  position: absolute;
+  height: 100%;
+  background: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,1));
+}
+
+#C {
+  position: absolute;
+  height: 100%;
+  background: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(255,255,255,1));}
+}
 
 #curtain-c h2, #curtain-c p, #curtain-c i {color: black;}
 
